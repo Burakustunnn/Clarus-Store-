@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: #b5fffc;
+}
+
+/* ******HEADER***** */
+
+.header {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #b5fffc 0%, #ffdee9 100%);
+  position: sticky;
+  top: 0;
+}
+.header a {
+  font-size: 2rem;
+  color: tomato;
+}
+.head__nav--sol {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-self: center;
+  flex-grow: 1;
+}
+
+.head__div--orta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-variant: small-caps;
+}
+.head__div--orta > h1 {
+  font-variant: small-caps;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.head__nav--sag {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.head__nav--sag section {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+/* *********MAİN********* */
+main {
+  margin: 15px 35px;
+}
+main > p {
+  font-size: 1.5rem;
+}
+
+/* *******FOOTER****** */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  padding: 25px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.footer__div--left {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer__div--categories,
+.footer__div--links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer__div--categories a,
+.footer__div--links a {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.footer__div--right {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer__div--about,
+.footer__div--contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 175px;
+}
+.footer__div--about,
+.footer__div--contact > p {
+  font-size: 1.1rem;
+}
+.footer h2 {
+  opacity: 0.7;
+}
+.footer p {
+  opacity: 0.7;
+}
+.footer a {
+  opacity: 0.7;
+}
+.footer .icon {
+  font-size: 5rem;
+  z-index: 1;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
